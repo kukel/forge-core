@@ -190,7 +190,7 @@ public class InputComponentProducer implements InputComponentFactory
     * Pre-configure input based on WithAttributes info if annotation exists
     */
    @SuppressWarnings({ "unchecked", "rawtypes" })
-   private void preconfigureInput(InputComponent<?, ?> input, WithAttributes atts)
+   public void preconfigureInput(InputComponent<?, ?> input, WithAttributes atts)
    {
       if (atts != null)
       {
