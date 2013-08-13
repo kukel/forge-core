@@ -94,6 +94,7 @@
             <module>configuration</module>
             <module>scaffold</module>
             <module>stacks</module>
+            <module>validator</module>
          </modules>
       </profile>
    </profiles>
